@@ -64,24 +64,28 @@ Error: Matrix a and b must have the same rows and cols.
 将你的每个函数的测试运行结果以截图的形式放在你仓库的`README.md`文件中（请注意Markdown中图片的引用要包含源文件）。并将你的最终代码仓库链接（在浏览器上的那个，不要带有`.git`的）填写如下问卷发送：
 
 ![](https://tannin-1316822731.cos.ap-nanjing.myqcloud.com/2025-04-19-%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%86%85%E8%AE%AD%E4%BD%9C%E4%B8%9A%E6%8F%90%E4%BA%A4.png)
+<<<<<<< HEAD
+=======
 
 # 我的思路
 
 ## 判断：我把每个判断放在函数的开头，并在if语句中打印出错误信息后就直接return，这样可以减少一层嵌套。
 
 ## 加法和减法：非常简单，只要循环两次将矩阵a,b中的元素对应相加或相减再存到c中即可。
-![alt text](a0013a3d3ffb90521108e39453515e2.png)
-![alt text](7d656d5f250936d31f4d312dbcf7ea2.png)
+![a0013a3d3ffb90521108e39453515e2](C:\Users\Huawei\Documents\WeChat Files\wxid_a4k26onoqmok22\FileStorage\Temp\a0013a3d3ffb90521108e39453515e2.png)
+
+![7d656d5f250936d31f4d312dbcf7ea2](C:\Users\Huawei\Documents\WeChat Files\wxid_a4k26onoqmok22\FileStorage\Temp\7d656d5f250936d31f4d312dbcf7ea2.png)
+
 ## 乘法：先判断矩阵a,b的行数是否相等，再判断列数是否相等，然后循环两次，将矩阵a的每一行与矩阵b的每一列对应相乘，再存到c中。
-![alt text](f4600abe71048691c969fa154f1c4a6.png)
+![f4600abe71048691c969fa154f1c4a6](C:\Users\Huawei\Documents\WeChat Files\wxid_a4k26onoqmok22\FileStorage\Temp\f4600abe71048691c969fa154f1c4a6.png)
 ## 数乘，这个main.c的代码好像确定了乘数为2.0，那就少一个输入了，我以为要输入的来着。
-![alt text](63f799da7487d3437d607b7cb2b9865.png)
+![63f799da7487d3437d607b7cb2b9865](C:\Users\Huawei\Documents\WeChat Files\wxid_a4k26onoqmok22\FileStorage\Temp\63f799da7487d3437d607b7cb2b9865.png)
 ## 转置：循环两次，将矩阵a的每一行的元素的下标反一反存到c的对应行和列中。因为前面的函数中矩阵都用c了所以这里虽然没有矩阵b我也用c了。
-![alt text](d4aa1a65547031e041d84cbd99c4b52.png)
-## 行列式：先写出1、2阶的，然后递归写出高阶的。当非方阵的时候main函数也会打印0，这里讲道理main函数应该加个判断的。
-![alt text](2d80adde248159bdd6fce4170a203ad.png)
-## 矩阵的迹：只需判断形状后将主对角线元素相加,和行列式一样main函数有一点点问题。
-![alt text](bab09b4fcc94e100adda3141c89adfc.png)
+![d4aa1a65547031e041d84cbd99c4b52](C:\Users\Huawei\Documents\WeChat Files\wxid_a4k26onoqmok22\FileStorage\Temp\d4aa1a65547031e041d84cbd99c4b52.png)
+## 行列式：先写出1、2阶的，然后递归写出高阶的。当非方阵的时候main函数也会打印0，所以我改了一点main函数，加了个判断。
+![2d80adde248159bdd6fce4170a203ad](C:\Users\Huawei\Documents\WeChat Files\wxid_a4k26onoqmok22\FileStorage\Temp\2d80adde248159bdd6fce4170a203ad.png)
+## 矩阵的迹：只需判断形状后将主对角线元素相加,和行列式一样，稍微改了一点main函数。
+![bab09b4fcc94e100adda3141c89adfc](C:\Users\Huawei\Documents\WeChat Files\wxid_a4k26onoqmok22\FileStorage\Temp\bab09b4fcc94e100adda3141c89adfc.png)
 ## 矩阵的秩：比较难，暂时没写出来。
 
 ## 矩阵的逆：比较难，暂时没写出来。
