@@ -16,5 +16,10 @@
             "command": "extension.execute",
             "priority": 4
         }
-    ]
+    ],
+    "files.associations": {
+        "stdio.h": "c",
+        "algebra.h": "c",
+        "math.h": "c"
+    }
 }
